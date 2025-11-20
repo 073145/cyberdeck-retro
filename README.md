@@ -41,15 +41,13 @@ The project explores the convergence of accessible hardware, low-level software,
 The `cyberdeck-retro` is a vital piece in your ubiquitous computing architecture, functioning as a powerful personal terminal for the ecosystem:
 
 | Cyberdeck Component | Responsible Repository | Function in the Cyberdeck System |
-
 | :---------------------- | :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-| **The Brain (OS and Logic)** | `computhink-101` | Provides the foundation for custom operating systems (embedded Linux) and the low-level development environment. |
-| **AI and Edge Agents** | `noogenesis-engine` | Hosts lightweight AI agents for edge computing, acting as a physical node for the Qualia Shell, performing local inference and decision-making. |
-| **Physical Blocks** | `mecha-blocks` | Provides modular design principles for enclosures, supports, and integration of electronic components. |
-| **Circuits and Controllers** | `circuitweave` | Provides examples of PCB design, GPIO controllers, and digital logic customization for unique peripherals, optimized for the edge. |
-| **Data Collection and Synchronization** | `glowing-system` | The cyberdeck acts as a mobile and persistent data collection node, sending contextual information to the central `glowing-system` when connectivity allows. |
-| **Mobile Interfaces/Apps** | `mobile_frameworks` | Development of complementary apps that can interact with the cyberdeck for remote control or visualization of edge node data. |
+| The Brain (OS and Logic) | computhink-101 | Provides the foundation for custom operating systems (embedded Linux) and the low-level development environment. |
+| AI and Edge Agents | noogenesis-engine | Hosts lightweight AI agents for edge computing, acting as a physical node for the Qualia Shell, performing local inference and decision-making. |
+| Physical Blocks | mecha-blocks | Provides modular design principles for enclosures, supports, and integration of electronic components. |
+| Circuits and Controllers | circuitweave | Provides examples of PCB design, GPIO controllers, and digital logic customization for unique peripherals, optimized for the edge. |
+| Data Collection and Synchronization | glowing-system | The cyberdeck acts as a mobile and persistent data collection node, sending contextual information to the central glowing-system when connectivity allows. |
+| Mobile Interfaces/Apps | mobile_frameworks | Development of complementary apps that can interact with the cyberdeck for remote control or visualization of edge node data. |
 
 ---
 
@@ -58,11 +56,11 @@ The `cyberdeck-retro` is a vital piece in your ubiquitous computing architecture
 The development of the `cyberdeck-retro` is divided into key areas for building an effective ubiquitous computing node:
 
 ### 1.1 Hardware Design & Prototyping
-* **Chassis & Enclosures:** CAD (Computer-Aided Design) design for robust and modular enclosures, using 3D printing and DIY fabrication methods.
+* **Chassis & Enclosures (CAD):** Design CAD (Computer-Aided Design) for robust and modular enclosures, utilizing 3D printing and DIY fabrication methods. **Tools:** FreeCAD, Fusion 360, **Tinkercad (for accessible browser-based modeling).**
+* **Circuits & PCB Design:** Development of custom circuit boards (PCBs) and shields for peripheral integration. **Tools:** KiCad, **EasyEDA (for browser-based schematic design and PCB layout).**
+* **Display & Input Integration:** Selection and integration of screens (LCD, e-ink) and input devices (mechanical keyboards, trackballs, joypads).
+* **Power Management Systems:** Circuits for battery management, charging solutions, and power consumption optimization.
 
-* **Display & Input Integration:** Selection and integration of low-power displays (LCD, e-ink) and ergonomic and tactile input devices (mechanical keyboards, trackballs, joypads).
-
-* **Power Management Systems:** Optimized circuits for battery management, charging (including solar or kinetic energy), and maximum power consumption optimization for prolonged operation.
 
 ### 1.2 Software Stack & OS Customization
 * **Embedded Linux Distributions:** Deep customization of Linux distributions (e.g., Raspberry Pi OS Lite, Armbian) for performance, security, and resource optimization, focusing on a minimal footprint for Edge AI.
@@ -94,11 +92,9 @@ The development of the `cyberdeck-retro` is divided into key areas for building 
 
 ## 🛠️ Focus Technologies
 
-* **Hardware:** Raspberry Pi, Orange Pi, ESP32, Arduinos, low-power displays (LCD/OLED/E-Ink), mechanical keyboards, SDR modules, various sensors.
-
-* **Languages:** Python (scripts, high-level applications and Edge AI), C/C++ (drivers, low-level optimizations and interactions with microcontrollers), Bash (system scripts).
-
-* **Tools:** `KiCad` (PCB design), `FreeCAD`/`Fusion 360` (CAD for enclosures), `Docker` (isolated development environments).
+* **Hardware:** Raspberry Pi, Orange Pi, ESP32, Arduinos, displays LCD/OLED/E-Ink, keyboards, SDR modules, various sensors..
+* **Languages:** `Python` (scripts, high-level apps, Edge AI), `C`/`C++` (drivers, low-level optimizations), `Bash` (system scripts).
+* **Design & Tools:** **KiCad, EasyEDA** (for PCB Design and Schematics), **FreeCAD, Fusion 360, Tinkercad** (for CAD/3D Modeling), Docker (for isolated dev environments).
 
 ---
 
